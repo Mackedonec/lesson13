@@ -115,9 +115,10 @@ console.log(myPow)
  */
 
 // Мама мыла раму, рама мыла маму
-
+var strObj = { str: 'Мама мыла раму, рама мыла маму' }
 // strObj
-
+strObj.length = strObj.str.length;
+console.log(strObj.length)
 /*
  * #7
  *
@@ -126,6 +127,9 @@ console.log(myPow)
  */
 
 // isRamaPos
+
+var isRamaPos = strObj.str.indexOf('рама')
+console.log(isRamaPos)
 
 /*
  * #8
@@ -137,12 +141,14 @@ console.log(myPow)
  */
 
 // strReplace
-
+var strReplace = strObj.str.replace('мыла', 'моет')
+strReplace = strReplace.replace('рама', 'Рама')
+strReplace = strReplace.replace('мыла', 'держит')
+console.log(strReplace)
 /*
  * #9
  *
  * Преобразуйте любую строку в верхний, затем в нижний регистры, результат отобразите в консоли.
  */
-
 console.log('anyStringUc'.toUpperCase())
 console.log('anyStringLc'.toLowerCase())
