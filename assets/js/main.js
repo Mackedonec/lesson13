@@ -7,6 +7,8 @@ console.log('Sample JavaScript #1 HW #13');
  */
 
 // имя переменной: myNum, значение: 10
+
+// var myNum = 10;
 var myNum;
 myNum = 10;
 console.log(myNum);
@@ -54,16 +56,27 @@ console.log(decimal2)
 
 // i
 
+// var i = 1158;
+// ++i;
+// console.log(i);
+
+// var i = 1158;
+// console.log(++i);
+
 var i;
 i = 1158;
 ++i;
 console.log(i);
 i++;
 console.log(i);
+
+i = 1158;
 --i;
 console.log(i);
 i--;
 console.log(i);
+
+// Можно ли обьявлять значение для i несколько раз? Допустим вот так:
 
 /*
  * #4
