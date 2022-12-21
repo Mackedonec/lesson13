@@ -8,25 +8,19 @@ console.log('Sample JavaScript #1 HW #13');
 
 // имя переменной: myNum, значение: 10
 
-// var myNum = 10;
-var myNum;
-myNum = 10;
+var myNum = 10;
 console.log(myNum);
 // имя переменной: myStr, значение: 'строка'
-var myStr;
-myStr = 'строка';
+var myStr = 'строка';
 console.log(myStr)
 // имя переменной: myBool, значение: true
-var myBool;
-myBool = true;
+var myBool = true;
 console.log(myBool)
 // имя переменной: myArr, значения: 1, 2, 3, 4, 5
-var myArr;
-myArr = [1, 2, 3, 4, 5];
+var myArr = [1, 2, 3, 4, 5];
 console.log(myArr)
 // имя переменной myObj, значения: first: 'First Name', last: 'Last Name'
-var myObj;
-myObj = {
+var myObj = {
     first: 'First Name',
     last: 'Last Name'
 };
@@ -56,27 +50,17 @@ console.log(decimal2)
 
 // i
 
-// var i = 1158;
-// ++i;
-// console.log(i);
-
-// var i = 1158;
-// console.log(++i);
-
-var i;
-i = 1158;
+var i = 1158;
 ++i;
 console.log(i);
 i++;
 console.log(i);
 
-i = 1158;
 --i;
 console.log(i);
 i--;
 console.log(i);
 
-// Можно ли обьявлять значение для i несколько раз? Допустим вот так:
 
 /*
  * #4
@@ -88,19 +72,23 @@ console.log(i);
  */
 
 // myTest
-var myTest;
-myTest = 20
+var myTest = 20;
 
 // +=
-
+myTest += myNum
+console.log(myTest)
 // –=
-
+myTest -= 50
+console.log(myTest)
 // *=
-
+myTest *= 40
+console.log(myTest)
 // /=
-
+myTest /= 80
+console.log(myTest)
 // %=
-
+myTest %= 6
+console.log(myTest)
 /*
  * #5
  *
@@ -108,13 +96,17 @@ myTest = 20
  */
 
 // константа Pi → myPi
-
+var myPi = Math.PI;
+console.log(myPi)
 // округленное значение числа 89.279 → myRound
-
+var myRound = Math.round(89.279);
+console.log(myRound)
 // случайное число между 0..10 → myRandom
-
+var myRandom = Math.random() * 10;
+console.log(Math.round(myRandom))
 // 3 в 5 степени → myPow
-
+var myPow = Math.pow(3, 5)
+console.log(myPow)
 /*
  * #6
  *
